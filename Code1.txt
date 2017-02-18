@@ -1,6 +1,6 @@
 function fib(n) {
 
-  //if (n<=1) return n; fajny zapis dwóch if poni¿ej
+  //if (n<=1) return n; fajny zapis dwÃ³ch if poniÂ¿ej
   if (n === 0)
     return 0;
   if (n === 1)
@@ -19,3 +19,18 @@ function fib(n) {
 
 
 console.log(fib(55));
+
+
+
+
+function isSquare (n){
+	if(n<0) return false;
+  
+  for(i=0; i<=n;i++)
+  {
+  if (n==(i*i)) return true;
+  else if (n<(i*i)) return false;
+  }
+}
+
+console.log(isSquare(9));
