@@ -34,3 +34,25 @@ function isSquare (n){
 }
 
 console.log(isSquare(9));
+
+
+
+function getDatee()
+{
+  var d = new Date();
+  return d.getDate();
+}
+
+function getMonth()
+{
+  var d = new Date();
+  return d.getMonth()+1;
+}
+
+function getYear()
+{
+  var d = new Date();
+  return d.getFullYear();
+}
+
+console.log("data "+getDatee()+" "+getMonth()+" "+ getYear());
